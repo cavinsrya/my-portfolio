@@ -28,7 +28,7 @@ export default function HeroChatBubbles() {
       <div
         className="absolute animate-float animation-delay-2000
         /* Mobile */
-        top-[28%] left-[3%] scale-75 origin-left
+        top-[31%] left-[3%] scale-75 origin-left
         /* Tablet */
         md:top-[40%] md:left-[5%] md:scale-90
         /* Lg */
@@ -50,7 +50,7 @@ export default function HeroChatBubbles() {
       <div
         className="absolute animate-float animation-delay-1000
         /* Mobile */
-        top-[18%] right-[5%] scale-75 origin-top-right
+        top-[18%] right-[5%] scale-75 origin-top-left
         /* Tablet */
         md:top-[50%] md:right-[5%] md:scale-90
         /* Laptop */
@@ -65,7 +65,7 @@ export default function HeroChatBubbles() {
           <span className="font-sans font-semibold text-sm md:text-base">
             2026
           </span>
-          <div className="absolute bottom-0 -left-2 w-3 h-3 md:w-4 md:h-4 bg-lime-300 [clip-path:polygon(100%_0,0%_100%,100%_100%)]"></div>
+          <div className="absolute bottom-0 -left-1 md:-left-2 w-3 h-3 md:w-4 md:h-4 bg-lime-300 [clip-path:polygon(100%_0,0%_100%,100%_100%)]"></div>
         </div>
       </div>
     </div>
