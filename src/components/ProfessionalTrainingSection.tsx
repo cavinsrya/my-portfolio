@@ -10,7 +10,7 @@ export default function ProfessionalTraining() {
         <h2 className="text-3xl font-normal tracking-wide text-gray-200 font-display">
           Professional Training
         </h2>
-        <div className="h-[1px] bg-gray-800 w-full flex-1 rounded-full opacity-60"></div>
+        <div className="h-[2px] bg-white w-full flex-1 rounded-full opacity-60"></div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">

@@ -48,9 +48,9 @@ export default function ReachOut() {
     <div className="w-full">
       <div className="flex items-center gap-6 mb-12">
         <h2 className="text-3xl font-normal tracking-wide text-gray-200 font-display">
-          Reach Out
+          Keep in Touch
         </h2>
-        <div className="h-[1px] bg-gray-800 w-full flex-1 rounded-full opacity-60"></div>
+        <div className="h-[2px] bg-white w-full flex-1 rounded-full opacity-60"></div>
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">

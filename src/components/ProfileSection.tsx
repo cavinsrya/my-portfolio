@@ -33,6 +33,12 @@ export default function AboutMe() {
 
           <div className="md:col-span-6 lg:col-span-8 space-y-6 text-gray-300 font-sans text-md md:text-sm lg:text-xl leading-relaxed">
             <p>
+              <span className="text-white font-semibold">
+                Hi, I&apos;m Cavin Surya.
+              </span>
+            </p>
+
+            <p>
               I used to be the one asking,{" "}
               <span className="italic">
                 &quot;Can we build this feature?&quot;
@@ -49,8 +55,13 @@ export default function AboutMe() {
               I&apos;m never satisfied with code that just{" "}
               <span className="italic">&quot;works.&quot;</span> For me, the
               true art of programming lies in its structure. I obsess over the
-              questions behind the screen: Is this efficient? Is the
-              architecture clean? Is this component reusable for future scale?
+              questions behind the screen,{" "}
+              <span className="text-gray-200">
+                Is this efficient? Is the architecture clean? Is this component
+                reusable for future scale?, clean code not just for performance,
+                but because I understand how deeply the backend structure
+                affects the frontend experience.
+              </span>
             </p>
 
             <p>
