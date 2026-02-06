@@ -1,6 +1,15 @@
 "use client";
 
+import { useState, useEffect } from "react";
+
 export default function Footer() {
+  const [year, setYear] = useState<number>(new Date().getFullYear());
+
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setYear(new Date().getFullYear());
+  }, []);
+
   return (
     <footer className="relative w-full pt-10 md:pt-20 pb-10 overflow-hidden">
       <div className="w-full px-0 leading-[0]">
@@ -20,7 +29,7 @@ export default function Footer() {
 
       <div className="mt-8 text-center">
         <p className="text-black font-sans text-sm md:text-base font-medium">
-          Copyright 2025
+          &copy; {year} Cavin
         </p>
       </div>
     </footer>
